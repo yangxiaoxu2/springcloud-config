@@ -3,14 +3,16 @@ spring:
         active:
         - dev       
 ---
+#开发环境
 spring:
-    profiles: dev #开发环境
-        application: 
-            name: springcloud-config-afcat-dev
+    profiles: dev 
+    application: 
+      name: springcloud-config-afcat-dev
 ---
+#测试环境
 spring:
-    profiles: test #测试环境
-        application: 
-            name: springcloud-config-afcat-test            
+    profiles: test 
+    application: 
+       name: springcloud-config-afcat-test            
 #请保存为UTF-8格式            
         
